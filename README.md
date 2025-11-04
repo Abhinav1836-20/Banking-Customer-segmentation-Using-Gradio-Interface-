@@ -8,7 +8,11 @@ The project begins by importing the necessary Python libraries such as pandas, n
 In the data preprocessing stage, the dataset containing customer information—such as spending habits, transaction history, credit usage, and income—is loaded using pandas. Non-numeric columns and missing values are handled carefully to ensure that the clustering model receives clean numerical input. The numeric features are then standardized using StandardScaler, which ensures that each feature contributes equally to the clustering algorithm, avoiding dominance by attributes with larger numeric ranges.
 
 
-Once the data is prepared, the K-Means clustering algorithm from scikit-learn is applied to group customers into distinct clusters based on their similarities. The number of clusters is often chosen either through experimentation or methods like the Elbow Method. In your final working version, the model successfully divided the dataset into seven clusters, indicating seven unique groups of customers with different financial behaviors and characteristics.
+Once the data is prepared, the K-Means clustering algorithm from scikit-learn is applied to group customers into distinct clusters based on their similarities. The number of clusters is often chosen either through experimentation or methods like the Elbow Method.
+
+
+
+In your final working version, the model successfully divided the dataset into seven clusters, indicating seven unique groups of customers with different financial behaviors and characteristics.
 
 
 Cluster	Customers	Possible interpretation 
