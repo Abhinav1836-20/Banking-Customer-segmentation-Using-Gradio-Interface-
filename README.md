@@ -1,5 +1,5 @@
 # Banking-Customer-segmentation-Using-Gradio-Interface-
-This case requires to develop a customer segmentation to define marketing strategy. The dataset has about 8951 credit card holders information for last 6 months(Dataset obtained from https://www.kaggle.com/datasets/arjunbhasin2013/ccdata).
+This case requires to develop a customer segmentation to define marketing strategy. The dataset has about 8951 credit card holders information(Dataset obtained from https://www.kaggle.com/datasets/arjunbhasin2013/ccdata).
 
 
 The project begins by importing the necessary Python libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, and gradio for data handling, visualization, modeling, and creating a simple user interface.
